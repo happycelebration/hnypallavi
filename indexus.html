@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=1.0, user-scalable=no">
+    <title>Happy New Year</title>
+    <link rel="shortcut icon" href="./assets/image/icon.svg">
+    <link rel="stylesheet" href="css/style1.css" type="text/css">
+</head>
+
+<div class="container">
+        <img src="gbr/age.gif" alt="Centered Image" style="position: absolute; width: 915px; height: 900px; bottom: -20px; left: 50%; transform: translateX(-50%);">
+    </div>
+
+<body>
+    <audio id="bgaudio" autoplay preload loop src="./assets/music/song.mp3" hidden="true"></audio>
+    <script src="js/play_music.js"></script>
+    <canvas class="canvas" width="1920" height="1080"></canvas>
+    <script src="js/show_date_time.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/color_bg_effect.js"></script>
+    <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
+    <script src="js/anime.min.js"></script>
+    <script src="js/fireworks.js"></script>
+</body>
+
+</html>
